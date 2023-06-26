@@ -7,32 +7,38 @@ import spongeCake from "../assets/spongeCake.jpg";
 
 export const MenuList = [
   {
-    name: "Cheese Cake",
+    id: 1,
+		name: "Cheese Cake",
     image: cheeseCake,
     price: 14.99,
   },
   {
-    name: "Specialty Cake",
+    id: 2,
+		name: "Specialty Cake",
     image: specialtyCake,
     price: 20.99,
   },
   {
-    name: "PedroTech Special Pizza",
+    id: 3,
+		name: "Swiss Roll",
     image: swissRoll,
     price: 16.59,
   },
   {
-    name: "Vegan Pizza",
+    id: 4,
+		name: "Stawberry Cake",
     image: stawberryCake,
     price: 19.49,
   },
   {
-    name: "Pineapple Pizza",
+    id: 5,
+		name: "Chocolate Cake",
     image: chocoCake,
     price: 12.99,
   },
   {
-    name: "Very Expensive Pizza",
+    id: 6,
+		name: "Sponge Cake",
     image: spongeCake,
     price: 13.99,
   },

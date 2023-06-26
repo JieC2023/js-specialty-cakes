@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import {ShopContext} from '../context/shopContext'
 
+function MenuItem(props) {
+	const { id, name, image, price } = props.data
+	const { addToCart, cartItems } = useContext(ShopContext)
 
-function MenuItem({ image, name, price }) {
+	const cartItemCount = cartItems[id]
+
 	return (
 		<div className='menuItem'>
 			<div style={{ backgroundImage: `url(${image})` }}> </div>
 			<h1>{name}</h1>
 			<p>${price}</p>
+			<button className="addToCartBttn" onClick={() => addToCart(id)}>
+				Add to cart {cartItemCount > 0 && <> ({cartItemCount})</>}
+			</button>
 			
 		</div>
 	)

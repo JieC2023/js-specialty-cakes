@@ -3,13 +3,16 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
-import Cart from './pages/Cart';
+import { Cart } from './pages/Cart';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import {ShopContextProvider} from './context/shopContext'
 
 function App() {
   return (
     <div className="App">
+    <ShopContextProvider>
       <Router>
         <Navbar />
         <Routes>
@@ -19,7 +22,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-      
+      </ShopContextProvider>
     </div>
   );
 }
