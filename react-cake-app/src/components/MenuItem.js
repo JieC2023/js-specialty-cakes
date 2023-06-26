@@ -10,12 +10,11 @@ function MenuItem(props) {
 	return (
 		<div className='menuItem'>
 			<div style={{ backgroundImage: `url(${image})` }}> </div>
-			<h1>{name}</h1>
+			<h2>{name}</h2>
 			<p>${price}</p>
 			<button className="addToCartBttn" onClick={() => addToCart(id)}>
 				Add to cart {cartItemCount > 0 && <> ({cartItemCount})</>}
 			</button>
-			
 		</div>
 	)
 }
