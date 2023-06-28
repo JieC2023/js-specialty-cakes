@@ -22,7 +22,7 @@ Js specialty cakes app is a platform that enables users to browse and order cake
 ## :pencil2: Planning & Problem Solving
 - 
 
-![drawing a engineering flow chart]()
+![drawing a engineering flow chart](/Users/jiechen/sei/projects/js-specialty-cakes/planning.png)
 
 - 
 
