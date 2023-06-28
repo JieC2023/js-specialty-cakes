@@ -15,14 +15,18 @@ Js specialty cakes app is a platform that enables users to browse and order cake
 ```
 
 - This is how the Js specialty cakes app looks:
-![how the home page looks]()
+![how the home page looks](home-page.png)
 
-![how the inner page looks]()
+![how the inner page looks](menu-page.png)
+
+![how the inner page looks](items-in-cart.png)
+
+![how the inner page looks](subtotal.png)
 
 ## :pencil2: Planning & Problem Solving
 - 
 
-![drawing a engineering flow chart](/Users/jiechen/sei/projects/js-specialty-cakes/planning.png)
+![drawing a engineering flow chart](planning.png)
 
 - 
 
