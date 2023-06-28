@@ -5,14 +5,14 @@ Js specialty cakes app is a platform that enables users to browse and order cake
 ## :page_facing_up: User Story
 - As a cake enthusiast, the user wants to explore a variety of delicious cakes and make a purchase through an intuitive app interface. So that the user can easily navigate and interact with the available options.
 - Features:
-```
+
 1. When opening the app, the user should be greeted with a visually appealing interface.
 2. The app should display images and descriptive text for each available cake.
 3. The user should be able to add cakes to a mock cart by clicking an "Add to Cart" button
 4. The app should keep track of the total price as the user adds cakes to the cart.
 5. The user should be able to view the contents of the mock cart and see the total price calculated.
 6. The app should provide a user-friendly way to modify the quantity of cakes in the cart or remove them completely.
-```
+
 
 - This is how the Js specialty cakes app looks:
 ![how the home page looks](home-page.png)
@@ -39,10 +39,10 @@ Js specialty cakes app is a platform that enables users to browse and order cake
 
 
 ## :scream: Bugs to fix :poop:
-- 
+- When the page shrinks less than 600px wide, the hamburger icon appears. If the hambruger icon is clicked, the navigation bar will apear while the logo dispears. This is how it was designed to be like this. However, if the page is enlarged greater than 600px wide. There will be two navigation bars.
 
 - 
 
 ## :white_check_mark: Future features
-- contact page
-- user login
+- Contact page update
+- User login functionality
