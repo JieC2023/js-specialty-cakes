@@ -7,11 +7,12 @@ Js specialty cakes app is a platform that enables users to browse and order cake
 - Features:
 
 1. When opening the app, the user should be greeted with a visually appealing interface.
-2. The app should display images and descriptive text for each available cake.
-3. The user should be able to add cakes to a mock cart by clicking an "Add to Cart" button
-4. The app should keep track of the total price as the user adds cakes to the cart.
-5. The user should be able to view the contents of the mock cart and see the total price calculated.
-6. The app should provide a user-friendly way to modify the quantity of cakes in the cart or remove them completely.
+2. When the page width shrinks to less than 600px, the navigation bar becomes responsive, disappearing and displaying a hamburger icon instead.
+3. The app should display images and descriptive text for each available cake.
+4. The user should be able to add cakes to a mock cart by clicking an "Add to Cart" button
+5. The app should keep track of the total price as the user adds cakes to the cart.
+6. The user should be able to view the contents of the mock cart and see the total price calculated.
+7. The app should provide a user-friendly way to modify the quantity of cakes in the cart or remove them completely.
 
 
 - This is how the Js specialty cakes app looks:
@@ -39,7 +40,7 @@ Js specialty cakes app is a platform that enables users to browse and order cake
 
 
 ## :scream: Bugs to fix :poop:
-- When the page shrinks less than 600px wide, the hamburger icon appears. If the hambruger icon is clicked, the navigation bar will apear while the logo dispears. This is how it was designed to be like this. However, if the page is enlarged greater than 600px wide. There will be two navigation bars.
+- When the page width shrinks to less than 600px, the navigation bar becomes responsive, disappearing and displaying a hamburger icon instead. If the hamburger icon is clicked, the navigation bar will reappear, while the cake logo disappears, as designed. However, if the page width is then increased beyond 600px, two navigation bars will be displayed.
 
 - 
 
